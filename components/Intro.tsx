@@ -45,7 +45,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         {
-          "Hello, I'm Jaedon Spurlock, a full-time student from Cal State San Marcos studying Software Engineering. I enjoy making web and desktop applications."
+          "Hello, I'm Jaedon Spurlock, a fullstack student from Cal State San Marcos studying Software Engineering. I enjoy making web and desktop applications."
         }
       </motion.p>
     </section>
