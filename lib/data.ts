@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import appmasterImg from "@/public/AppMaster.png";
 
 export const links = [
   {
@@ -61,6 +62,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "AppMaster",
+    description:
+      "Full-stack app-hosting service to allow developers to manage their python mini-projects.",
+    tags: ["Python", "TKinter", "Firebase", "Pyrebase"],
+    imageUrl: appmasterImg,
+  },
   {
     title: "CorpComment",
     description:

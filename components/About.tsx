@@ -14,20 +14,23 @@ export default function About() {
     >
       <SectionHeading> About Me </SectionHeading>
       <p className="mb-3">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio fuga,
-        aliquid pariatur dicta ex, aliquam sequi culpa minus sed laborum nostrum
-        obcaecati impedit aut magni temporibus beatae mollitia necessitatibus
-        blanditiis. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        Odio fuga, aliquid pariatur dicta ex, aliquam sequi culpa minus sed
-        laborum nostrum obcaecati impedit aut magni temporibus beatae mollitia
-        necessitatibus blanditiis.
+        I am currently studying my Bachelor&apos;s of Software Engineering at
+        California State University at San Marcos with the goal to become a
+        full-stack engineer. My aim is to contribute to the development of
+        sustainable, powerful applications that addresses the challenges faced
+        in the tech industry. Thriving on challenges and relentlessly seeking
+        opportunities to improve my professional and communication skills, I am
+        a passionate and quick learner with a strong aptitude for technical
+        subjects to help make a significant impact on the world.
       </p>
 
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio fuga,
-        aliquid pariatur dicta ex, aliquam sequi culpa minus sed laborum nostrum
-        obcaecati impedit aut magni temporibus beatae mollitia necessitatibus
-        blanditiis.
+        In 2004, I was born with profound bilateral neurosensorial hearing loss,
+        which rendered me completely deaf in both ears. Early on in my life, I
+        underwent two cochlear implant surgeries in 2005 and 2007, performed in
+        Hawaii and Colorado. Although both surgeries were successful, my right
+        side gradually worsened growing up, pushing me to only wear my left ear
+        cochlear implant to achieve bionic hearing.
       </p>
     </motion.section>
   );

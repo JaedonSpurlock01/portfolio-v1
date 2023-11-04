@@ -50,7 +50,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         {
-          "Hello, I'm Jaedon Spurlock, a fullstack student from Cal State San Marcos studying Software Engineering. I enjoy making web and desktop applications."
+          "Hello, I'm Jaedon Spurlock, a Software Engineering student. I enjoy building web and desktop applications. My focus is React (Next.js)."
         }
       </motion.h1>
 
