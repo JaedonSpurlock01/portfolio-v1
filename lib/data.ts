@@ -38,30 +38,6 @@ export const experiencesData = [
     location: "Remote",
     description:
       "Engaged with Plotly.js, Docker, PostgreSQL, JavaScript, TypeScript, and React technologies to address critical issues and advance the functionality of the energy information platform",
-    icon: React.createElement(CgWorkAlt),
-    date: "2023 - present",
-  },
-  {
-    title: "Project Contributor | Open Energy Dashboard",
-    location: "Remote",
-    description:
-      "Engaged with Plotly.js, Docker, PostgreSQL, JavaScript, TypeScript, and React technologies to address critical issues and advance the functionality of the energy information platform",
-    icon: React.createElement(FaReact),
-    date: "2023 - present",
-  },
-  {
-    title: "Project Contributor | Open Energy Dashboard",
-    location: "Remote",
-    description:
-      "Engaged with Plotly.js, Docker, PostgreSQL, JavaScript, TypeScript, and React technologies to address critical issues and advance the functionality of the energy information platform",
-    icon: React.createElement(CgWorkAlt),
-    date: "2023 - present",
-  },
-  {
-    title: "Project Contributor | Open Energy Dashboard",
-    location: "Remote",
-    description:
-      "Engaged with Plotly.js, Docker, PostgreSQL, JavaScript, TypeScript, and React technologies to address critical issues and advance the functionality of the energy information platform",
     icon: React.createElement(LuGraduationCap),
     date: "2023 - present",
   },
@@ -75,13 +51,13 @@ export const projectsData = [
     tags: ["Python", "TKinter", "Firebase", "Pyrebase"],
     imageUrl: appmasterImg,
   },
-  {
-    title: "Example #2",
-    description:
-      "The stars danced in the velvet sky, casting a celestial glow upon the tranquil night.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
-  },
+  // {
+  //   title: "Example #2",
+  //   description:
+  //     "The stars danced in the velvet sky, casting a celestial glow upon the tranquil night.",
+  //   tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+  //   imageUrl: corpcommentImg,
+  // },
 ] as const;
 
 export const skillsData = [

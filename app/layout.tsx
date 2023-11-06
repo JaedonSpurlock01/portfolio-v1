@@ -27,18 +27,16 @@ export default function RootLayout({
         }
       >
         <div className="bg-[#E3F4F4] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#a9b9b9]"></div>
-        <div
-          className="bg-[#FCF5ED] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem]
-         md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#cec7c0]"
-        ></div>
+        <div className="bg-[#FCF5ED] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#cec7c0]"></div>
 
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Header />
             {children}
+            <Footer />
+
             <Toaster position="top-right" />
             <ThemeSwitch />
-            <Footer />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
       </body>
