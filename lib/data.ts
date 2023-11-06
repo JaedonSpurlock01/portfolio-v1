@@ -41,6 +41,30 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2023 - present",
   },
+  {
+    title: "Project Contributor | Open Energy Dashboard",
+    location: "Remote",
+    description:
+      "Engaged with Plotly.js, Docker, PostgreSQL, JavaScript, TypeScript, and React technologies to address critical issues and advance the functionality of the energy information platform",
+    icon: React.createElement(FaReact),
+    date: "2023 - present",
+  },
+  {
+    title: "Project Contributor | Open Energy Dashboard",
+    location: "Remote",
+    description:
+      "Engaged with Plotly.js, Docker, PostgreSQL, JavaScript, TypeScript, and React technologies to address critical issues and advance the functionality of the energy information platform",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - present",
+  },
+  {
+    title: "Project Contributor | Open Energy Dashboard",
+    location: "Remote",
+    description:
+      "Engaged with Plotly.js, Docker, PostgreSQL, JavaScript, TypeScript, and React technologies to address critical issues and advance the functionality of the energy information platform",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023 - present",
+  },
 ] as const;
 
 export const projectsData = [
