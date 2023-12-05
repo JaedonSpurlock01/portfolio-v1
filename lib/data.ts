@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import graphImg from "@/public/graph.png";
 import appmasterImg from "@/public/AppMaster.png";
 
 export const links = [
@@ -51,13 +51,13 @@ export const projectsData = [
     tags: ["Python", "TKinter", "Firebase", "Pyrebase"],
     imageUrl: appmasterImg,
   },
-  // {
-  //   title: "Example #2",
-  //   description:
-  //     "The stars danced in the velvet sky, casting a celestial glow upon the tranquil night.",
-  //   tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-  //   imageUrl: corpcommentImg,
-  // },
+  {
+    title: "Shortest Route Finder",
+    description:
+      "Integrated Dijkstra's Algorithm using a network of cities and routes",
+    tags: ["C++"],
+    imageUrl: graphImg,
+  },
 ] as const;
 
 export const skillsData = [
@@ -66,7 +66,7 @@ export const skillsData = [
   "C++",
   "Python",
   "TKinter",
-  "Firebase",
+  "Convex",
   "Pyrebase",
   "JavaScript",
   "TypeScript",
