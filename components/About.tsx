@@ -19,14 +19,15 @@ export default function About() {
     >
       <SectionHeading> About Me </SectionHeading>
       <p className="mb-3">
-        I am currently studying my Bachelor&apos;s of Software Engineering at
-        California State University at San Marcos with the goal to become a
-        full-stack engineer. My aim is to contribute to the development of
-        sustainable, powerful applications that addresses the challenges faced
-        in the tech industry. Thriving on challenges and relentlessly seeking
-        opportunities to improve my professional and communication skills, I am
-        a passionate and quick learner with a strong aptitude for technical
-        subjects to help make a significant impact on the world.
+        I am studying Software Engineering at California State University, San
+        Marcos, aspiring to be a full-stack developer. Passionate about
+        developing sustainable, impactful applications to tackle tech industry
+        challenges. I am knowledgeable in Python, C++, JavaScript, CSS, and
+        HTML. In addition, I work with popular technologies like React,
+        TailwindCSS, Next.JS, and databases like Convex and Firebase. I am a
+        quick learner with a strong technical aptitude, seeking opportunities to
+        enhance professional and communication skills to deliver a significant
+        impact on the world.
       </p>
 
       <p className="mb-3">
