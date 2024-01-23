@@ -24,10 +24,10 @@ export default function About() {
         developing sustainable, impactful applications to tackle tech industry
         challenges. I am knowledgeable in Python, C++, JavaScript, CSS, and
         HTML. In addition, I work with popular technologies like React,
-        TailwindCSS, Next.JS, and databases like Convex and Firebase. I am a
-        quick learner with a strong technical aptitude, seeking opportunities to
-        enhance professional and communication skills to deliver a significant
-        impact on the world.
+        TailwindCSS, Next.JS, and databases like MongoDB. I am a quick learner
+        with a strong technical aptitude, seeking opportunities to enhance
+        professional and communication skills to deliver a significant impact on
+        the world.
       </p>
 
       <p className="mb-3">

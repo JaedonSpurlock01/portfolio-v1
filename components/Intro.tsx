@@ -2,7 +2,7 @@
 
 import React, { useEffect } from "react";
 import Image from "next/image";
-import profileImg from "@/public/JaedonSpurlock.png";
+import profileImg from "@/public/JaedonSpurlock.jpg";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";

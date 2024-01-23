@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import graphImg from "@/public/graph.png";
-import appmasterImg from "@/public/AppMaster.png";
+import routifyImg from "@/public/routify.png";
+import webwizzardImg from "@/public/webwizzard.png";
 
 export const links = [
   {
@@ -45,18 +45,18 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "AppMaster",
+    title: "Routify",
     description:
-      "Full-stack app-hosting service to allow developers to manage their python mini-projects.",
-    tags: ["Python", "TKinter", "Firebase", "Pyrebase"],
-    imageUrl: appmasterImg,
+      "City Pathfinding Visualizer that works with any city listed in OpenStreetMap.",
+    tags: ["JavaScript", "NextJS", "ReactJS", "ThreeJS", "API"],
+    imageUrl: routifyImg,
   },
   {
-    title: "Shortest Route Finder",
+    title: "WebWizzard",
     description:
-      "Integrated Dijkstra's Algorithm using a network of cities and routes",
-    tags: ["C++"],
-    imageUrl: graphImg,
+      "AI chatbot chrome extension that provides chat prompting on websites and also uses web scraping to gather relevant data.",
+    tags: ["JavaScript", "AI", "API", "ReactJS", "JSON"],
+    imageUrl: webwizzardImg,
   },
 ] as const;
 
@@ -66,8 +66,7 @@ export const skillsData = [
   "C++",
   "Python",
   "TKinter",
-  "Convex",
-  "Pyrebase",
+  "MongoDB",
   "JavaScript",
   "TypeScript",
   "React",
