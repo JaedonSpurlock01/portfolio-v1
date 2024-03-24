@@ -2,8 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import routifyImg from "@/public/routify.png";
+import routifyImg from "@/public/routify.gif";
 import webwizzardImg from "@/public/webwizzard.png";
+import resideImg from "@/public/reside.png";
 
 export const links = [
   {
@@ -37,7 +38,7 @@ export const experiencesData = [
     title: "Project Contributor | Open Energy Dashboard",
     location: "Remote",
     description:
-      "Engaged with Plotly.js, Docker, PostgreSQL, JavaScript, TypeScript, and React technologies to address critical issues and advance the functionality of the energy information platform",
+      "Improved reliability of an open-source project by implementing a test case with JavaScript and Mocha. Led a team of 3 to verify conversions from kWh to BTU energy units, resulting in increased confidence in data integrity.",
     icon: React.createElement(LuGraduationCap),
     date: "2023 - present",
   },
@@ -47,16 +48,51 @@ export const projectsData = [
   {
     title: "Routify",
     description:
-      "City Pathfinding Visualizer that works with any city listed in OpenStreetMap.",
-    tags: ["JavaScript", "NextJS", "ReactJS", "ThreeJS", "API"],
+      "City pathfinding visualizer that displays a variety of search algorithms in a road-map visual.",
+    tags: [
+      "JavaScript",
+      "NextJS",
+      "ReactJS",
+      "ThreeJS",
+      "TailwindCSS",
+      "Nominatim API",
+      "Overpass API",
+      "Amazon S3",
+    ],
     imageUrl: routifyImg,
+    link: "https://www.routify.cc",
   },
   {
     title: "WebWizzard",
     description:
       "AI chatbot chrome extension that provides chat prompting on websites and also uses web scraping to gather relevant data.",
-    tags: ["JavaScript", "AI", "API", "ReactJS", "JSON"],
+    tags: [
+      "JavaScript",
+      "GEMINI AI API",
+      "DOM API",
+      "ReactJS",
+      "JSON",
+      "CHROME EXTENSION",
+    ],
     imageUrl: webwizzardImg,
+    link: "",
+  },
+  {
+    title: "Reside",
+    description:
+      "Real estate website built for college students. It helps find students the best deals, roommates, and nearby facilities.",
+    tags: [
+      "JavaScript",
+      "Java",
+      "Python",
+      "NextJS",
+      "ReactJS",
+      "MapBox",
+      "TailwindCSS",
+      "MongoDB",
+    ],
+    imageUrl: resideImg,
+    link: "",
   },
 ] as const;
 
@@ -73,7 +109,11 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
+  "TailwindCSS",
   "Python",
   "Framer Motion",
+  "Amazon S3",
+  "SQL",
+  "Agile",
+  "Scrum",
 ] as const;

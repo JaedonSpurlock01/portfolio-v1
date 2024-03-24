@@ -59,7 +59,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         {
-          "Hello, I'm Jaedon Spurlock, a software developer student. I enjoy building web and desktop applications. My focus is Software Engineering."
+          "Hello, I'm Jaedon Spurlock, a hearing-disabled software developer student. My focus is software development and embedded systems."
         }
       </motion.h1>
 
