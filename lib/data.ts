@@ -40,7 +40,7 @@ export const experiencesData = [
     description:
       "Improved reliability of an open-source project by implementing a test case with JavaScript and Mocha. Led a team of 3 to verify conversions from kWh to BTU energy units, resulting in increased confidence in data integrity.",
     icon: React.createElement(LuGraduationCap),
-    date: "2023 - present",
+    date: "Oct 2023 - Nov 2023",
   },
 ] as const;
 
