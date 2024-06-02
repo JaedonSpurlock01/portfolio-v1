@@ -4,7 +4,9 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import routifyImg from "@/public/routify.gif";
 import webwizzardImg from "@/public/webwizzard.png";
-import resideImg from "@/public/reside.png";
+import resideImg from "@/public/reside.jpg";
+import robotCarImg from "@/public/robotcar.jpg";
+import gdscWebsiteImg from "@/public/gdscwebsite.png";
 
 export const links = [
   {
@@ -35,7 +37,22 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Project Contributor | Open Energy Dashboard",
+    title: "Software Engineer Intern @ Welfie",
+    location: "Remote",
+    description: "Contributing to the development of welfie health products.",
+    icon: React.createElement(CgWorkAlt),
+    date: "June 2024 - Current",
+  },
+  {
+    title: "Project Lead @ GDSC - CSUSM",
+    location: "Hybrid",
+    description:
+      "Leading the development of projects for the Google Developer Student Club at California State University, San Marcos.",
+    icon: React.createElement(LuGraduationCap),
+    date: "May 2024 - Current",
+  },
+  {
+    title: "Project Lead @ Open Energy Dashboard",
     location: "Remote",
     description:
       "Improved reliability of an open-source project by implementing a test case with JavaScript and Mocha. Led a team of 3 to verify conversions from kWh to BTU energy units, resulting in increased confidence in data integrity.",
@@ -63,6 +80,48 @@ export const projectsData = [
     link: "https://www.routify.cc",
   },
   {
+    title: "GDSC Main Website",
+    description:
+      "Main website for the GDSC Club at CSUSM. Maintains information about projects, events, workshops, and more.",
+    tags: ["TypeScript", "React", "NextJS", "ShadCN UI", "MongoDB"],
+    imageUrl: gdscWebsiteImg,
+    link: "",
+  },
+  {
+    title: "Reside",
+    description:
+      "Real estate website built for college students. It helps find students the listing deals and find roommates.",
+    tags: [
+      "JavaScript",
+      "Java",
+      "Python",
+      "NextJS",
+      "ReactJS",
+      "MapBox",
+      "TailwindCSS",
+      "MongoDB",
+    ],
+    imageUrl: resideImg,
+    link: "https://www.reside.services/",
+  },
+  {
+    title: "Four-Wheeled Robot Car",
+    description:
+      "Contributed to the assembly of a remote-controlled 4-wheeled robotic car",
+    tags: [
+      "C++",
+      "Robot Operating System",
+      "PWM",
+      "Raspberry Pi",
+      "Simple DirectMedia Layer",
+      "Motors",
+      "DC-DC Conversion",
+      "Joystick",
+    ],
+    imageUrl: robotCarImg,
+    link: "https://www.youtube.com/shorts/G9FhDCOTYBA",
+  },
+  {
     title: "WebWizzard",
     description:
       "AI chatbot chrome extension that provides chat prompting on websites and also uses web scraping to gather relevant data.",
@@ -75,24 +134,7 @@ export const projectsData = [
       "CHROME EXTENSION",
     ],
     imageUrl: webwizzardImg,
-    link: "",
-  },
-  {
-    title: "Reside",
-    description:
-      "Real estate website built for college students. It helps find students the best deals, roommates, and nearby facilities.",
-    tags: [
-      "JavaScript",
-      "Java",
-      "Python",
-      "NextJS",
-      "ReactJS",
-      "MapBox",
-      "TailwindCSS",
-      "MongoDB",
-    ],
-    imageUrl: resideImg,
-    link: "",
+    link: "https://github.com/JaedonSpurlock01/webwizzard",
   },
 ] as const;
 
